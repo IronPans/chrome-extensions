@@ -1,0 +1,18 @@
+{
+  "name": "Devtools",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "扩展描述",
+  "icons" : {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "Devtools",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "homepage_url": "http://ghmagical.com",
+  "devtools_page": "devtools.html"
+}

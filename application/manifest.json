@@ -1,0 +1,16 @@
+{
+  "name": "弹弹球",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "这是一个简单的Chrome应用：弹弹球",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}

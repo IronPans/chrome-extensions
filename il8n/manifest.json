@@ -1,0 +1,17 @@
+{
+  "name": "il8n",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons" : {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "il8n",
+    "default_icon": "icon.png"
+  },
+  "homepage_url": "http://ghmagical.com",
+  "description": "__MSG_desc__",
+  "default_locale": "zh_CN"
+}

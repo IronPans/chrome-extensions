@@ -1,0 +1,16 @@
+{
+  "name": "EasyChat",
+  "version": "0.1.1",
+  "description": "This is a easy chat.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "TG",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3"
+  }
+}

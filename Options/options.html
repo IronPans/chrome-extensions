@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options设置</title>
+    <style>
+
+        body {
+            padding: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        select {
+            height: 40px;
+            border: 1px solid #d9d9d9;
+            border-radius: 5px;
+            background: #fff;
+            padding: 0 10px;
+        }
+
+        button {
+            height: 40px;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+            padding: 0 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all .3s;
+        }
+
+        button:hover {
+            background: #eee;
+        }
+
+        span {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="form-group">
+    <label for="color">字体颜色：</label>
+    <select name="color" id="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="purple">purple</option>
+    </select>
+
+    <button id="save">保存</button>
+
+    <span id="tip"></span>
+
+    <script src="options.js"></script>
+</div>
+</body>
+</html>
